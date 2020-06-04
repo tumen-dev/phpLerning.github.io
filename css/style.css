@@ -1,14 +1,16 @@
+/* CSS */
+
 body {
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
 }
 
 .left-indent {
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 .right-indent {
-    margin-right: 200px;
+    margin-right: 100px;
 }
 
 .header {
@@ -50,6 +52,7 @@ body {
 }
 
 .search-bar button {
+    margin-left: 5px;
     background-color: #56c596;
     color: white;
     border: 0px;
@@ -70,6 +73,7 @@ body {
     padding-top: 30px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .main-content {
@@ -139,4 +143,85 @@ body {
 
 .content-img {
     margin-bottom: 35px;
+}
+
+.comments {
+    margin-top: 50px;
+}
+
+.avatar {
+    min-width: 70px;
+    max-height: 70px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.text-comment {
+    padding-left: 20px;
+    width: 93%;
+}
+
+.text-comment h4 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.one-comment {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-comment {
+    display: block;
+    padding: 30px;
+}
+
+.add-comment textarea {
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+    margin-bottom: 20px;
+}
+
+.add-comment button {
+    background-color: #56c596;
+    color: white;
+    border: 0px;
+    width: 110px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.signin {
+    width: 30%;
+}
+
+.register {
+    width: 69%;
+}
+
+.register-input {
+    width: calc(100% - 11px);
+    height: 35px;
+    padding: 0 5px;
+    margin: 0;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    box-shadow: 3px 3px 15px #E5E5E5;
+}
+
+.register-button {
+    width: 100%;
+    height: 35px;
+    background-color: #56c596;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #E5E5E5;
+}
+
+.group-input {
+    width: 49%;
 }

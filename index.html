@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 
@@ -14,10 +14,10 @@
     <div class="header">
         <div class="main-bar">
             <div class="site-name left-indent">
-                <a href=""><h2>Блог пользователя</h2></a>
+                <a href="index.html"><h2>Блог пользователя</h2></a>
             </div>
             <div class="nav-site right-indent">
-                <a href="#">Главная</a>
+                <a href="index.html">Главная</a>
                 <a href="#">Статьи</a>
                 <a href="#">Новости</a>
                 <a href="#">Обо мне</a>
@@ -29,7 +29,7 @@
                 <button>Искать</button>
             </div>
             <div class="register-bar right-indent">
-                <a href="#">Авторизация и Регистрация</a>
+                <a href="signin.html">Авторизация и Регистрация</a>
             </div>
         </div>
     </div>
@@ -38,7 +38,10 @@
         <div class="main-content">
             <div class="content-box">
                 <div>
-                    <h4>Статья 1</h4>
+                    <div class="footer-content">
+                        <h4>Статья 1</h4>
+                        <p>1 февраля 2019</p>
+                    </div>
                     <p>
                         Не следует, однако забывать, что новая модель организационной
                         деятельности влечет за собой процесс внедрения и модернизации
@@ -61,17 +64,20 @@
                         <span class="footer-content-info">Просмотры: 300</span>
                         <span>Лайки: 100</span>
                     </div>
-                    <a href="#">Читать</a>
+                    <a href="article.html">Читать</a>
                 </div>
             </div>
 
             <div class="content-img">
-                <img src="img\image.png" alt="image">
+                <img src="imges/image.png" alt="image">
             </div>
             
             <div class="content-box">
                 <div>
-                    <h4>Статья 2</h4>
+                    <div class="footer-content">
+                        <h4>Статья 2</h4>
+                        <p>2 февраля 2019</p>
+                    </div>
                     <p>
                         Не следует, однако забывать, что новая модель организационной
                         деятельности влечет за собой процесс внедрения и модернизации
@@ -103,7 +109,7 @@
                 <h4>Разделы</h4>
                 <a href="#">Статьи</a>
                 <ul>
-                    <li><a href="#">Статья 1</a></li>
+                    <li><a href="article.html">Статья 1</a></li>
                     <li><a href="#">Статья 2</a></li>
                     <li><a href="#">Статья 3</a></li>
                     <li><a href="#">Статья 4</a></li>
