@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
@@ -14,7 +16,9 @@
     <div class="header">
         <div class="main-bar">
             <div class="site-name left-indent">
-                <a href="index.html"><h2>Блог пользователя</h2></a>
+                <a href="index.html">
+                    <h2>Блог пользователя</h2>
+                </a>
             </div>
             <div class="nav-site right-indent">
                 <a href="index.html">Главная</a>
@@ -23,9 +27,10 @@
                 <a href="#">Обо мне</a>
             </div>
             <div class="nav-site-mobile right-indent">
-                <a href="#" onclick="document.getElementById('menumobile').style.display = 'block'">Menu</a>
+                <a href="#" class="fas fa-bars"
+                    onclick="document.getElementById('menumobile').style.display = 'block'"></a>
             </div>
-            
+
         </div>
 
         <div class="nav-site-mobile-link" id="menumobile">
@@ -48,13 +53,13 @@
         </div>
     </div>
 
-    
+
 
     <div class="site-content left-indent right-indent">
         <div class="main-content">
             <div class="content-box">
                 <div>
-                    <div class="footer-content">
+                    <div class="footer-content" id="top-content-info">
                         <h4>Статья 1</h4>
                         <p>1 февраля 2019</p>
                     </div>
@@ -76,21 +81,21 @@
                     </p>
                 </div>
                 <div class="footer-content">
-                    <div>
+                    <div class="footer-info">
                         <span class="footer-content-info">Просмотры: 300</span>
                         <span>Лайки: 100</span>
                     </div>
-                    <a href="article.html">Читать</a>
+                    <a href="article.html" class="content-button">Читать</a>
                 </div>
             </div>
 
             <div class="content-img">
                 <img src="imges/image.png" alt="image">
             </div>
-            
+
             <div class="content-box">
                 <div>
-                    <div class="footer-content">
+                    <div class="footer-content" id="top-content-info">
                         <h4>Статья 2</h4>
                         <p>2 февраля 2019</p>
                     </div>
@@ -112,7 +117,7 @@
                     </p>
                 </div>
                 <div class="footer-content">
-                    <div>
+                    <div class="footer-info">
                         <span class="footer-content-info">Просмотры: 300</span>
                         <span>Лайки: 100</span>
                     </div>

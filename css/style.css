@@ -131,6 +131,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 15px;
 }
 
 .footer-content-info {
@@ -173,7 +174,7 @@ body {
 
 .add-comment {
     display: block;
-    padding: 30px;
+    padding-bottom: 20px;
 }
 
 .add-comment textarea {
@@ -235,6 +236,8 @@ body {
     background-color: #5e72eb;
     width: 100%;
     text-align: center;
+    line-height: 35px;
+    padding: 10px 0;
 }
 
 .nav-site-mobile-link a {
@@ -288,6 +291,13 @@ body {
     .nav-site-mobile {
         display: block;
     }
+
+    .search-bar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 
@@ -301,11 +311,11 @@ body {
     }
 
     .left-indent {
-        margin-left: 3px;
+        margin-left: 10px;
     }
 
     .right-indent {
-        margin-right: 3px;
+        margin-right: 10px;
     }
 
     .nav-site-mobile {
@@ -345,5 +355,24 @@ body {
 
     .nav-site-mobile {
         display: block;
+    }
+
+    .search-bar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .search-bar button {
+        margin-right: 10px;
+    }
+    
+    .footer-info {
+        margin-bottom: 20px;
+    }
+    
+    #top-content-info {
+        display: flex;
     }
 }
