@@ -22,7 +22,7 @@ body {
     text-decoration: none;
     color: white;
 }
-    
+
 .main-bar {
     background-color: #3c4cad;
     width: 100%;
@@ -224,4 +224,126 @@ body {
 
 .group-input {
     width: 49%;
+}
+
+.nav-site-mobile {
+    display: none;
+}
+
+.nav-site-mobile-link {
+    display: none;
+    background-color: #5e72eb;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-site-mobile-link a {
+    display: block;
+}
+
+@media screen and (max-width: 1000px) {
+    .nav-site {
+        display: none;
+    }
+
+    .register-bar {
+        display: none;
+    }
+
+    .left-indent {
+        margin-left: 30px;
+    }
+
+    .right-indent {
+        margin-right: 30px;
+    }
+
+    .nav-site-mobile {
+        display: block;
+    }
+
+    .site-content {
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .main-content {
+        width: 63%;
+    }
+
+    .content-bar {
+        width: 35%;
+    }
+
+    .signin {
+        width: 35%;
+    }
+
+    .register {
+        width: 63%;
+    }
+
+    .nav-site-mobile {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .nav-site {
+        display: none;
+    }
+
+    .register-bar {
+        display: none;
+    }
+
+    .left-indent {
+        margin-left: 3px;
+    }
+
+    .right-indent {
+        margin-right: 3px;
+    }
+
+    .nav-site-mobile {
+        display: block;
+    }
+
+    .site-content {
+        padding-top: 30px;
+        display: block;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .main-content {
+        width: 100%;
+    }
+
+    .content-bar {
+        width: 100%;
+    }
+
+    .signin {
+        width: 100%;
+    }
+
+    .register {
+        width: 100%;
+    }
+
+    .footer-content {
+        display: block;
+    }
+
+    .group-input {
+        width: 100%;
+    }
+
+    .nav-site-mobile {
+        display: block;
+    }
 }

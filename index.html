@@ -22,7 +22,21 @@
                 <a href="#">Новости</a>
                 <a href="#">Обо мне</a>
             </div>
+            <div class="nav-site-mobile right-indent">
+                <a href="#" onclick="document.getElementById('menumobile').style.display = 'block'">Menu</a>
+            </div>
+            
         </div>
+
+        <div class="nav-site-mobile-link" id="menumobile">
+            <a href="index.html">Главная</a>
+            <a href="#">Статьи</a>
+            <a href="#">Новости</a>
+            <a href="#">Обо мне</a>
+            <a href="signin.html">Авторизация и Регистрация</a>
+            <a href="" onclick="document.getElementById('menumobile').style.display = 'none'">Закрыть</a>
+        </div>
+
         <div class="main-bar2">
             <div class="search-bar left-indent">
                 <input type="text" placeholder="Введите текст...">
@@ -33,6 +47,8 @@
             </div>
         </div>
     </div>
+
+    
 
     <div class="site-content left-indent right-indent">
         <div class="main-content">
