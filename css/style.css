@@ -298,6 +298,10 @@ body {
         justify-content: space-between;
         align-items: center;
     }
+
+    .search-bar button {
+        margin-right: 30px;
+    }
 }
 
 
