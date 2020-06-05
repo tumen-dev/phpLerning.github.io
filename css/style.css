@@ -199,7 +199,7 @@ body {
 }
 
 .register {
-    width: 69%;
+    width: 62%;
 }
 
 .register-input {
@@ -281,7 +281,7 @@ body {
     }
 
     .signin {
-        width: 35%;
+        width: 32%;
     }
 
     .register {
@@ -346,6 +346,7 @@ body {
     }
 
     .register {
+        margin-top: 50px;
         width: 100%;
     }
 
@@ -371,11 +372,11 @@ body {
     .search-bar button {
         margin-right: 10px;
     }
-    
+
     .footer-info {
         margin-bottom: 20px;
     }
-    
+
     #top-content-info {
         display: flex;
     }
