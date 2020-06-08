@@ -178,11 +178,14 @@ body {
 }
 
 .add-comment textarea {
-    max-width: 100%;
-    min-width: 100%;
+    max-width: calc(100% - 20px);
+    min-width: calc(100% - 20px);
     max-height: 200px;
     min-height: 200px;
     margin-bottom: 20px;
+    padding: 10px 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
 }
 
 .add-comment button {
@@ -242,6 +245,92 @@ body {
 
 .nav-site-mobile-link a {
     display: block;
+}
+
+.admin-newuser-block {
+    background-color: #ebebeb;
+    padding: 20px 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.admin-newuser-block h3 {
+    margin-top: 0;
+}
+
+.conteiner-newuser-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.newuser-block {
+    display: block;
+    width: 48%;
+}
+
+.newuser-block input[type="text"] {
+    width: calc(100% - 20px);
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.newuser-block input[type="submit"] {
+    background-color: #00b15c;
+    color: #fff;
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.newpost-block {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.newpost-block input[type="text"] {
+    width: 45%;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+.admin-newuser-block textarea {
+    max-width: calc(100% - 20px);
+    min-width: calc(100% - 20px);
+    max-height: 145px;
+    min-height: 145px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px 10px;
+}
+
+#full-post {
+    max-height: 250px;
+    min-height: 250px;
+}
+
+.admin-newuser-block input[type="submit"] {
+    background-color: #00b15c;
+    color: #fff;
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 0 10px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -379,5 +468,22 @@ body {
 
     #top-content-info {
         display: flex;
+    }
+
+    .conteiner-newuser-block {
+        display: block;
+    }
+
+    .newuser-block {
+        width: 100%;
+    }
+
+    .newpost-block {
+        display: block;
+        width: 100%;
+    }
+
+    .newpost-block input[type="text"] {
+        width: calc(100% - 20px);
     }
 }

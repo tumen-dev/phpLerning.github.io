@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/v4-shims.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="main-bar">
+            <div class="site-name left-indent">
+                <a href="index.html">
+                    <h2>Блог пользователя</h2>
+                </a>
+            </div>
+            <div class="nav-site right-indent">
+                <a href="#">Пользователи</a>
+                <a href="#">Новости</a>
+                <a href="#">Настройки сайта</a>
+            </div>
+            <div class="nav-site-mobile right-indent">
+                <a href="#" class="fas fa-bars"
+                    onclick="document.getElementById('menumobile').style.display = 'block'"></a>
+            </div>
+        </div>
+
+        <div class="nav-site-mobile-link" id="menumobile">
+            <a href="#">Пользователи</a>
+            <a href="#">Новости</a>
+            <a href="#">Настройки сайта</a>
+            <a href="" onclick="document.getElementById('menumobile').style.display = 'none'">Закрыть</a>
+        </div>
+    </div>
+
+    <div class="admin-newuser-block left-indent right-indent">
+        <h3>Новая новость</h3>
+        <div class="newpost-block">
+            <input type="text" placeholder="Название">
+            <input type="text" placeholder="Название на английском">
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Краткая новость"></textarea>
+        <textarea name="" id="full-post" cols="30" rows="10" placeholder="Полная новость"></textarea>
+        <div class="newpost-block">
+            <input type="text" placeholder="Дата публикации">
+            <input type="text" placeholder="Автор">
+        </div>
+        <input type="submit" value="Добавить">
+    </div>
+
+</body>
+
+</html>
